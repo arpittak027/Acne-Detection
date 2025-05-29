@@ -26,7 +26,7 @@ const Profile: React.FC = () => {
         <div className="md:w-1/3 p-4 bg-white rounded-lg shadow-sm mb-6 md:mb-0 md:mr-6">
           <div className="flex flex-col items-center p-4 border-b border-gray-200 pb-6">
             <img
-              src={user?.profileImage || 'https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'}
+              src={user?.profileImage || 'https://www.google.com/imgres?q=phineas%20&imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fphineasandferb%2Fimages%2Fe%2Fea%2FProfile_-_Phineas_Flynn.PNG%2Frevision%2Flatest%3Fcb%3D20200401182458&imgrefurl=https%3A%2F%2Fphineasandferb.fandom.com%2Fwiki%2FPhineas_Flynn&docid=q6qpvy-gcOtcXM&tbnid=LsHA5Rz8FvzlJM&vet=12ahUKEwiEyouFssmNAxWyZfUHHWCCCRwQM3oECBoQAA..i&w=690&h=717&hcb=2&itg=1&ved=2ahUKEwiEyouFssmNAxWyZfUHHWCCCRwQM3oECBoQAA'}
               alt="Profile"
               className="w-32 h-32 rounded-full object-cover border-4 border-white shadow-md mb-4"
             />
